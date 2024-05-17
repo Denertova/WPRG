@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Operacje na katalogach</title>
+</head>
+<body>
+<form action="EX3.php" method="post">
+    <label for="path">Ścieżka:</label>
+    <input type="text" id="path" name="path" required>
+    <label for="dirname">Nazwa katalogu:</label>
+    <input type="text" id="dirname" name="dirname" required>
+    <label for="operation">Operacja:</label>
+    <select id="operation" name="operation">
+        <option value="read">Odczyt</option>
+        <option value="delete">Usuń</option>
+        <option value="create">Stwórz</option>
+    </select>
+    <input type="submit" value="Wykonaj">
+</form>
+</body>
+</html>
