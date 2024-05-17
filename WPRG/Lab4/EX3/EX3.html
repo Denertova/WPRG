@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista odnosnikow</title>
+</head>
+<body>
+<h2>Dodaj nowy odnosnik</h2>
+<form action="addLink.php" method="post">
+    <label for="url">URL:</label>
+    <input type="text" id="url" name="url" required>
+    <br>
+    <label for="description">Opis:</label>
+    <input type="text" id="description" name="description" required>
+    <br>
+    <input type="submit" value="Dodaj odnosnik">
+</form>
+
+<h2>Lista odnosnikow</h2>
+<?php include 'showLink.php'; ?>
+</body>
+</html>
